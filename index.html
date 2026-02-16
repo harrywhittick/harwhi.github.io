@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>harwhi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- parallax header -->
+<section class="parallax">
+    <div class="overlay">
+        <h1 data-translate>harwhi</h1>
+    </div>
+</section>
+
+<!-- language selector -->
+<div style="text-align:center;">
+    <label for="langSelect">Choose Language:</label>
+    <select id="langSelect">
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+        <option value="de">German</option>
+        <option value="zh">Chinese</option>
+        <option value="hi">Hindi</option>
+        <option value="sv">Swedish</option>
+        <option value="nl">Dutch</option>
+        <option value="pl">Polish</option>
+        <option value="ja">Japanese</option>
+        <option value="ko">Korean</option>
+        <option value="it">Italian</option>
+        <option value="pt">Portuguese</option>
+        <option value="ar">Arabic</option>
+    </select>
+</div>
+
+<!-- tabs -->
+<div class="tabs">
+    <button class="tab-btn active" data-tab="home" data-translate>home</button>
+    <button class="tab-btn" data-tab="projects" data-translate>current and past projects</button>
+    <button class="tab-btn" data-tab="social" data-translate>social</button>
+</div>
+
+<!-- tab content -->
+<div class="tab-content">
+    <div id="home" class="tab-panel active">
+        <h2 data-translate>home</h2>
+        <p data-translate>hi! welcome to my website. this is purely a passion project and is a test of what i can do with html, css and javascript. the site is quite barebones as of now, but that will change as time goes on.</p>
+    </div>
+
+    <div id="projects" class="tab-panel">
+        <h2 data-translate>projects</h2>
+        <p data-translate>obviously, i have this website as a project, but i am working on some other things</p>
+        <p data-translate>i got a new computer in ~october 2025. as bringus would've said, its a beefy computer.</p>
+        <p data-translate>i got it specced with a ryzen 7 5700x, 4060 ti and a staggering 16gb ram. im getting a cheap kit of 128gb ram soon though. it also has 3tb nvme storage.</p>
+    </div>    
+</div>
+
+<!-- dark mode toggle -->
+<button id="darkModeToggle">🌙</button>
+
+<script src="script.js"></script>
+</body>
+</html>
